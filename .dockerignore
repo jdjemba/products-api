@@ -1,0 +1,30 @@
+# Ignore Python bytecode files
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore environment files
+.env
+
+# Ignore local directories
+.idea/
+.vscode/
+venv/
+env/
+__pycache__/
+
+# Ignore the migrations directory to avoid copying unnecessary files
+migrations/
+
+# Ignore other unnecessary files
+*.log
+*.bak
+*.swp
+
+# Ignore data files (assuming you have backups)
+*.sqlite3
+*.db
+
+# Ignore Docker-related files (Dockerfile and docker-compose.yml will be copied explicitly)
+Dockerfile
+docker-compose.yml
